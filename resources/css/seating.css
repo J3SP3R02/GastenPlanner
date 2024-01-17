@@ -1,0 +1,113 @@
+.modal-content{
+    margin-top: 6%;
+}
+.box {
+    box-sizing: border-box;
+    background-color: #c4c4c4;
+    border-radius: 35px;
+    width: 65%;
+    height: 45%;
+}
+.new-table {
+    position: absolute ;
+    margin-left: 64%;
+    margin-top: -21.5%;
+    height: 14%;
+    width: 14%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.new-table p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding-left: 10px;
+}
+.fa-plus {
+    font-size: 2vw;
+    flex-shrink: 0;
+    margin-left: 25%; 
+}   
+.form-input{
+    margin-left: 5.8%;
+}
+
+@media screen and (max-device-width: 600px) {
+p{
+    font-size: 30px;
+}
+label{
+    font-size: 30px;
+}
+h3{
+    font-size: 35px;
+}
+ .box{
+   height: 30%;
+   width: 63%;
+ }
+ .new-table{
+    margin-left: 60%;
+    margin-top: -53%;
+    font-size: 30px;
+    width: 25%;
+ }
+ .new-table i{
+    display: none;
+ }
+ .modal-content {
+    margin-top: 25%;
+    width: 80%;
+}
+.modal-content input,
+textarea {
+    font-size: 30px;
+}
+.modal-content textarea {
+    height: 30%;
+}
+.submit{
+    font-size: 30px;
+}
+}
+
+@media screen and (min-device-width: 700px) and (max-device-width: 1100px) {
+    p{
+        font-size: 30px;
+    }
+    label{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 35px;
+    }
+     .box{
+       height: 30%;
+       width: 63%;
+     }
+     .new-table{
+        margin-left: 60%;
+        margin-top: -43%;
+        font-size: 30px;
+        width: 32%;
+     }
+     .new-table i{
+        font-size: 30px;
+     }
+     .modal-content {
+        margin-top: 25%;
+        width: 80%;
+    }
+    .modal-content input,
+    textarea {
+        font-size: 30px;
+    }
+    .modal-content textarea {
+        height: 30%;
+    }
+    .submit{
+        font-size: 30px;
+    }
+}

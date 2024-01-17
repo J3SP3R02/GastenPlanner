@@ -1,0 +1,122 @@
+table {
+    margin-top: 3%;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+}
+tr:first-child th:first-child {
+    border-top-left-radius: 15px;
+}
+tr:first-child th:last-child {
+    border-top-right-radius: 15px;
+}
+
+tr:last-child td:first-child {
+    border-bottom-left-radius: 15px;
+}
+tr:last-child td:last-child {
+    border-bottom-right-radius: 15px;
+}
+
+th {
+    height: 2.6vw;
+    background: #a3ddcb;
+    text-align: center;
+}
+td {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    width: 20%;
+    border: 1.6px solid #a3ddcb;
+    text-align: center;
+}
+tr:nth-child(even) {
+    background-color: #e0f3ed;
+}
+
+.checkbox + i{
+    position: absolute;
+    margin-top: -1.5%;
+    margin-left: 6.6%;
+    display: none;
+}
+.label-input{
+    margin-left: 5%;
+}
+.input-xl{
+    margin-left: 2%;
+}
+
+@media screen and (max-device-width: 600px) {
+    label{
+        font-size: 30px;
+    }
+    .table-container{
+        height: 900px;
+    }
+    table {
+        font-size: 30px;
+    }
+    .modal-content{
+        width: 80%;
+        height: 50%;
+    }
+    .modal-content input,
+    textarea {
+        font-size: 35px;
+    }
+    .modal-content textarea{
+        height: 30%;
+    }
+    .submit{
+        font-size: 35px;
+    }
+    h3{
+        font-size: 35px;
+    }
+    .checkbox{
+        width: 5vw;
+        height: 5vw;
+    }
+    .checkbox + i{
+        margin-top: -4.3%;
+        margin-left: 7.2%;
+    }
+   
+}
+@media screen and (min-device-width: 700px) and (max-device-width: 1100px) {
+    label{
+        font-size: 30px;
+    }
+    .table-container{
+        height: 900px;
+    }
+    table {
+        font-size: 25px;
+    }
+    .modal-content{
+        width: 80%;
+        height: 50%;
+    }
+    .modal-content input,
+    textarea {
+        font-size: 25px;
+    }
+    .modal-content textarea{
+        height: 30%;
+    }
+    .submit{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    .checkbox{
+        width: 5vw;
+        height: 5vw;
+    }
+    .checkbox + i{
+        margin-top: -4.3%;
+        margin-left: 7.6%;
+    }
+}

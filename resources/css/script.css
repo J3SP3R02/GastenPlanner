@@ -1,0 +1,113 @@
+table {
+    width: 100%;
+    margin-top: 3%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+.editbtn{
+    background-color: #a3ddcb;
+    color: #000000;
+    margin-left: 5%;
+}
+tr:first-child th:first-child {
+    border-top-left-radius: 15px;
+}
+tr:first-child th:last-child {
+    border-top-right-radius: 15px;
+}
+
+tr:last-child td:first-child {
+    border-bottom-left-radius: 15px;
+}
+tr:last-child td:last-child {
+    border-bottom-right-radius: 15px;
+}
+
+th {
+    height: 2.6vw;
+    background: #a3ddcb;
+    text-align: center;
+}
+td {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    width: 20%;
+    border: 1.6px solid #a3ddcb;
+    text-align: center;
+}
+tr:nth-child(even) {
+    background-color: #e0f3ed;
+}
+label{
+    margin-left: 8%;
+}
+.name{
+    width: 40%;
+    margin-left: 5%;
+}
+@media screen and (max-device-width: 600px) {
+    .page{
+        width: 100%;
+    }
+    label{
+        font-size: 30px;
+    }
+    .table-containter{
+        width: 100%;
+    }
+    table {
+        font-size: 25px;
+        width: max-content;
+    }
+    .editbtn{
+        font-size: 25px;
+    }
+    .modal-content{
+        width: 80%;
+        height: 70%;
+    }
+    .modal-content input,
+    textarea {
+        font-size: 35px;
+    }
+    .modal-content textarea{
+        height: 30%;
+    }
+    .submit{
+        font-size: 35px;
+    }
+    h3{
+        font-size: 35px;
+    }
+}
+@media screen and (min-device-width: 700px) and (max-device-width: 1100px) {
+    .page{
+        width: 100%;
+    }
+    label{
+        font-size: 30px;
+    }
+    table {
+        font-size: 25px;
+    }
+    .editbtn{
+        font-size: 24px;
+    }
+    .modal-content{
+        width: 80%;
+        height: 70%;
+    }
+    .modal-content input,
+    textarea {
+        font-size: 25px;
+    }
+    .modal-content textarea{
+        height: 30%;
+    }
+    .submit{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 30px;
+    }
+}

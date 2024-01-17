@@ -1,0 +1,120 @@
+.section-buttons {
+    display: none;
+}
+
+#start-button {
+    margin-left: 35%;
+    margin-top: 3%;
+}
+.circles {
+    margin-left: 4%;
+    margin-top: 5%;
+}
+.circle {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    border-radius: 50%;
+    font-size: 19px;
+    color: #fff;
+    text-align: center;
+    background: #808080;
+    margin-right: 2%;
+}
+
+.step-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    width: 75%;
+    margin-left: 5%;
+    padding-bottom: 50px;
+}
+
+.step-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.step-connector {
+    flex-grow: 1;
+    height: 15px;
+    background-color: #ccc;
+}
+.step-circle.blue-line {
+  background-color: #a3ddcb;
+}
+.step-connector.blue-line {
+    background-color: #a3ddcb;
+}
+  
+.table-container{
+    overflow-y: auto;
+    max-height: 400px;
+}
+table {
+    margin-top: 3%;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+}
+tr:first-child th:first-child {
+    border-top-left-radius: 15px;
+}
+tr:first-child th:last-child {
+    border-top-right-radius: 15px;
+}
+
+tr:last-child td:first-child {
+    border-bottom-left-radius: 15px;
+}
+tr:last-child td:last-child {
+    border-bottom-right-radius: 15px;
+}
+
+th {
+    height: 2.6vw;
+    background: #a3ddcb;
+    text-align: center;
+}
+td {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    width: 20%;
+    border: 1.6px solid #a3ddcb;
+    text-align: center;
+}
+tr:nth-child(even) {
+    background-color: #e0f3ed;
+}
+.fa-solid {
+    color: #000000;
+    margin-left: 1%;
+}
+.searchbar {
+    display: inline;
+    border: 1px solid #e5707e;
+    border-radius: 30px;
+    position: relative;
+    font-size: 16px;
+    outline: none;
+}
+.searchbar-input {
+    background: rgba(106, 112, 126, 0.01);
+    outline: none;
+    border: none;
+    width: 200px;
+    font-size: 16px;
+}
+td .table-buttons {
+    background-color: #a3ddcb;
+    color: #000000;
+}

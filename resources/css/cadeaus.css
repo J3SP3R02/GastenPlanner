@@ -1,0 +1,287 @@
+table {
+    margin-top: 3%;
+    border-collapse: separate;
+    border-spacing: 0;  
+  }
+  tr:first-child th:first-child { border-top-left-radius: 15px; }
+  tr:first-child th:last-child { border-top-right-radius: 15px; }
+  
+  tr:last-child td:first-child { border-bottom-left-radius: 15px; }
+  tr:last-child td:last-child { border-bottom-right-radius: 15px; }
+
+  th {
+    height: 2.6vw;
+    background: #A3DDCB;
+    text-align: center;
+  }
+  td {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    width: 20%;
+    border: 1.6px solid #A3DDCB;
+    text-align: center;
+  }
+  tr:nth-child(even){
+    background-color: #e0f3ed;
+  }
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+    z-index: 3;
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    margin-top: 6%;
+
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 60px;
+    height: 32%;
+    width: 45%;
+  
+}
+.modal-content h3 {
+    margin-left: 8%;
+}
+.modal-content input, textarea {
+    border: 1px solid #e5707e;
+    border-radius: 30px;
+    padding-left: 20px;
+    font-size: 16px;
+    outline: none;
+    position: relative;
+    margin-left: 8%;
+}
+
+.modal-content p {
+    font-size: 12px;
+}
+
+.input-large {
+    margin-top: 2%;
+    width: 80%;
+    padding: 10px 20px;
+}
+.input-xl {
+    margin-top: 2%;
+    width: 80%;
+    height: 15%;
+    box-sizing: border-box;
+    resize: none;
+    border-radius: 20px;
+}
+
+.submit {
+    background-color: #a3ddcb;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    position: relative;
+    cursor: pointer;
+    margin-left: 8%;
+    margin-top: 3%;
+    width: 30%;
+}
+
+.name {
+    display: flex;
+}
+.name input{
+    padding: 10px 20px;
+}
+
+select {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #E5707E;
+    border-radius: 30px;
+}
+
+.dropdown {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #E5707E;
+    border-radius: 30px;
+    margin-left: 40%;
+}
+
+.cadeau{
+    width:80%
+}
+.cadeau-box {
+        background-color: #fefefe;
+        margin: auto;
+        margin-top: 6%;
+        margin-left: 2%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+        padding: 20px;
+        border: 1px solid #888;
+        border-radius: 25px;
+        height: 21%;
+        width: 10%;
+        text-align: center;
+        display: inline-block;
+        
+    }
+ .cadeau-box img{
+    position: relative;
+    width: 5.5vw;
+    height: 5.5vw;
+    z-index: 1;
+ }  
+ .checkbox{
+    position: absolute;
+    display: block;
+    margin-left: 6%;
+    margin-top: -10%;
+    z-index: 2;
+    border: 2px solid #A3DDCB;
+ }
+ .checkbox:checked {
+    background-color: #A3DDCB;
+}
+.checkbox + i{
+    position: absolute;
+    margin-top: -9.7%;
+    margin-left: 6.25%;
+    z-index: 2;
+    display: none;
+    color: #000;
+}
+label {
+    margin-left: 8%;
+}
+
+
+@media screen and (max-device-width: 600px) {
+    label{
+        font-size: 30px;
+    }
+    p{
+        font-size: 30px;
+    }
+    .dropdown{
+        font-size: 30px;
+        margin-top: -6.8%;
+    }
+    h3{
+        font-size: 35px;
+    }
+    .modal-content{
+        margin-top: 50%;
+        width: 80%;
+        height: 20%;
+    }
+    .modal-content input,
+    textarea {
+        font-size: 35px;
+    }
+    .modal-content textarea{
+        height: 30%;
+    }
+    .submit{
+        font-size: 35px;
+    }
+    .cadeau-box{
+        width: 25%;
+        height: 15%;
+    }
+    .cadeau-box img{
+        width: 8vw;
+        height: 8vw;
+    }
+    .checkbox{
+        margin-top: -20%;
+        margin-left: 15%;
+        width: 4%;
+        height: 4%;
+    }
+    .checkbox + i{
+        margin-top: -19.1%;
+        margin-left: 15.7%;
+        font-size: 2.2vw;
+    }
+    
+    .checkbox:checked + i{
+        display: block;
+    }
+}
+@media screen and (min-device-width: 700px) and (max-device-width: 1100px) {
+    label{
+        font-size: 30px;
+    }
+    .dropdown{
+        font-size: 30px;
+        margin-top: -6.8%;
+    }
+    h3{
+        font-size: 30px;
+    }
+     p{
+        font-size: 30px;
+    }
+    .modal-content{
+        width: 80%;
+        height: 25%;    
+    }
+    .modal-content input,
+    textarea {
+        font-size: 25px;
+    }
+    .modal-content textarea{
+        height: 30%;
+    }
+    .submit{
+        font-size: 25px;
+    }
+    .cadeau-box{
+        width: 25%;
+        height: 15%;
+    }
+    .cadeau-box img{
+        width: 8vw;
+        height: 8vw;
+    }
+    .checkbox{
+        margin-top: -19%;
+        margin-left: 15%;
+        width: 4%;
+        height: 4%;
+    }
+    .checkbox + i{
+        margin-top: -18%;
+        margin-left: 15.8%;
+        font-size: 2.2vw;
+    }
+    
+    .checkbox:checked + i{
+        display: block;
+    }
+}

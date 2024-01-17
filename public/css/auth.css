@@ -1,0 +1,154 @@
+.content img {
+    width: 25vw;
+    margin-top: 4%;
+    margin-left: 50%;
+}
+.nav-buttons {
+    margin-left: 53%;
+    margin-top: -6%;
+}
+#register, #login {
+    width: 25%;
+}
+
+.login-form {
+    margin-left: 9%;
+    margin-top: -32%;
+}
+
+.login-input {
+    width: 35%;
+    border: 1px solid #e5707e;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    outline: none;
+}
+.login-checkbox {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #e5707e;
+    -moz-appearance: none;
+         appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+.login-checkbox:checked {
+    background-color: #e5707e;
+}
+#checkbox {
+    font-size: 11px;
+    margin-left: -0.2%;
+}
+
+button {
+    background-color: #a3ddcb;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    position: relative;
+    cursor: pointer;
+    margin-top: 1%;
+    width: 15%;
+}
+.submit{
+    margin-left: -0.1%;
+    width: 15%;
+}
+#reset-password {
+    background-color: white;
+    color: #a3ddcb;
+    border: 2px solid #a3ddcb;
+    width: 18%;
+}
+.input-name {
+    display: inline-block;
+}
+.label-lastname{
+    margin-left: 10%;
+}
+#firstname,
+#lastname {
+    display: block;
+    width: 100%;
+}
+#lastname {
+    margin-left: 8%;
+}
+.error {
+    max-width: 35%;
+}
+@media screen and (max-device-width: 600px) {
+    * {
+        font-size: 25px;
+    }
+    .login-form {
+        left: 0;
+        margin-top: 10%;
+    }
+    h1 {
+        font-size: 35px;
+    }
+
+    .login-input {
+        font-size: 25px;
+        width: 60%;
+    }
+    button {
+        width: 30%;
+        font-size: 25px;
+    }
+    #reset-password {
+        width: 48%;
+    }
+    .content img{
+        display: none;
+    }
+    #checkbox{
+        font-size: 20px;
+    }
+    #register, #login {
+        width: 40%;
+    }
+    
+}
+@media screen and (min-device-width: 700px) and (max-device-width: 1100px) {
+    * {
+        font-size: 30px;
+    }
+    .login-form {
+        margin-top: 8%;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    .login-input {
+        width: 75%;
+        font-size: 30px;
+    }
+    button {
+        width: 30%;
+        font-size: 30px;
+    }
+    #reset-password {
+        width: 80%;
+    }
+    .content img{
+        display: none;
+    }
+    #checkbox{
+        font-size: 20px;
+    }
+    #register, #login {
+        width: 42%;
+    }
+    
+}
+
